@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-upper: #3f3d56;
+    --color-text: #828282;
+    --color-span: #EE24FF;
+    --color-border: #ECEFF2;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 62.6rem;
+    height: 48.6rem;
+}
+
+.container img {
+    width: 35rem;
+    height: 23.8rem;
+    margin: 6.4rem 0 3.2rem;
+}
+
+.container h1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-upper);
+    margin-bottom: 1.6rem;
+    width: 49.4rem;
+}
+
+.container h1 span {
+    color: var(--color-span);
+    font-weight: 700;
+}
+
+.container p {
+    width: 53rem;
+    color: var(--color-text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.container #second-p{
+    margin: 3.2rem 0;
+}
+
+strong {
+    color: var(--color-upper);
+}
+
+.container #diferent-strong {
+    color: var(--color-text);
+}
+
+footer {
+    display: flex;
+    gap: 4.2rem;
+    justify-content: center;
+    margin-top: 8rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--color-border);
+    width: 39.1rem;
+}
+
+footer a {
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-upper);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#wave {
+    position: absolute;
+    min-width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+
